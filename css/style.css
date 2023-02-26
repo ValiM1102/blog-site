@@ -9,6 +9,17 @@ body{
     color: #272323;
     font-family: 'Nunito Sans', sans-serif;
 }
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+    background:#dbe9e1 ;
+}
+body::-webkit-scrollbar-thumb {
+    background:#69a281;
+}
+
 header{
     background-color: #83B799;
     text-align: center;
@@ -22,19 +33,23 @@ header{
 
 
 header h1{
+    text-align: center;
     font-family: 'Oranienbaum', serif;
     padding-bottom: 0;
     margin-bottom: 0;
     margin-top: 0;
     padding-top: 1rem;
     font-size: 1rem;
+    clip-path: circle(1.8rem);
+    background-color: white;
+    padding-bottom: 1rem;
     
 }
 header h2{
     font-family: 'Antic Didone', serif;
     padding-bottom: 0;
     margin-bottom: 0;
-    margin-top: 4rem;
+    margin-top: 2.5rem;
     font-size: 1rem;
     font-weight: 600;
     font-style: italic;
@@ -88,4 +103,9 @@ nav ul{
 }
 nav li{
     list-style: none;
+}
+article{
+    border: #272323 2px solid;
+    height: 50vh;
+    margin: 1rem;
 }
