@@ -10,7 +10,7 @@ body{
     font-family: 'Nunito Sans', sans-serif;
 }
 header{
-    color:#83B799;
+    background-color: #83B799;
     text-align: center;
     flex-direction: column;
     background-position: center;
@@ -18,7 +18,6 @@ header{
     background-size: cover;
     height: 30vh;
     position: relative;
-    border: 5px solid #83B799;
 }
 
 
@@ -28,7 +27,7 @@ header h1{
     margin-bottom: 0;
     margin-top: 0;
     padding-top: 1rem;
-    font-size: 3rem;
+    font-size: 1rem;
     
 }
 header h2{
@@ -36,54 +35,57 @@ header h2{
     padding-bottom: 0;
     margin-bottom: 0;
     margin-top: 4rem;
-    font-size: 2.5rem;
+    font-size: 1rem;
     font-weight: 600;
     font-style: italic;
 }
-ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20%;
-    color: white;
-    background-color: #83B799;
+.nav-list{
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+    text-align: right;
+    border-radius: 5px;
     padding: 0;
     margin: 0;
 }
-li{
-    font-size: 1.5rem;
-}
-article{
-    width: 50%;
-    height: 25rem;
-    position: relative;
-}
-#test-article{
-    margin-left: 2rem;
-    margin-top: 2rem;
-    background-image: url(../img/mountains-3661319.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#test-article2{
+#nav-bar-icon{
     position: absolute;
-    right: 2rem;
-    margin-top: 2rem;
-    background-image: url(../img/mountains-3661319.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
 }
-.article-title{
-    background-color: rgba(255, 255, 255, 0.434);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+.hidden{
+    display: none;
 }
-.article-title h1, p{
-    font-size: 1.7rem;
+.nav-list ul{
+    font-weight: 900;    
+    font-size: 0.7rem;
+    margin: 0;
     padding: 0;
-    margin:0;
-    margin-left: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    /* margin-top: 0.8rem; */
+}
+.nav-list li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    padding: 0.125rem;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8%;
+    color: white;
+    background-color: #69a281;
+    padding: 0;
+    margin: 0;
+    height: 6vh;
+    font-size: 1rem;
+}
+nav li{
+    list-style: none;
 }
