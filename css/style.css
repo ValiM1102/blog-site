@@ -2,6 +2,9 @@
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Oranienbaum', serif;
 font-family: 'Roboto Condensed', sans-serif; */
+
+/* home and others */
+
 body{
     margin: 0;
     padding: 0;
@@ -39,20 +42,16 @@ header{
 }
 
 
-header h1{
+h1{
     text-align: center;
     font-family: 'Oranienbaum', serif;
     padding-bottom: 0;
     margin-bottom: 0;
     margin-top: 0;
-    padding-top: 1rem;
     font-size: 1rem;
-    clip-path: circle(1.8rem);
-    background-color: white;
-    padding-bottom: 1rem;
-    
 }
-header h2{
+
+h2{
     font-family: 'Antic Didone', serif;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -61,6 +60,7 @@ header h2{
     font-weight: 600;
     font-style: italic;
 }
+
 .nav-list{
     position: absolute;
     top: 3rem;
@@ -115,4 +115,51 @@ article{
     border: #272323 2px solid;
     height: 50vh;
     margin: 1rem;
+}
+
+/* HOME */
+#home-header{
+    height: 94vh;
+}
+
+#home-header-h1{
+    clip-path: circle(2.2rem);
+    background-color: white;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+}
+
+#home-nav ul{
+    height: 6vh;
+}
+
+
+
+/* BLOG PAGE */
+
+#header-title-blog {
+    text-align: center;
+    font-family: 'Oranienbaum', serif;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 1rem;
+    clip-path: circle(1.8rem);
+    background-color: white;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* ABOUT PAGE */
+
+#about-header{
+    height: 100vh;
+}
+#about-header-h1{
+    padding-top: 2rem;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.about-header-h2{
+    font-size: 1.3rem;
 }
