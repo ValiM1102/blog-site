@@ -20,6 +20,13 @@ body::-webkit-scrollbar-thumb {
     background:#69a281;
 }
 
+a{
+    color: #272323;
+    text-decoration: none;
+    
+}
+
+
 header{
     background-color: #83B799;
     text-align: center;
