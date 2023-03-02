@@ -11,8 +11,7 @@ body{
     width: 100%;
     color: #272323;
     font-family: 'Oranienbaum', serif;
-    height: 100%;
-    min-height: -webkit-fill-available;
+    height: 100vh;
 }
 
 body::-webkit-scrollbar {
@@ -33,13 +32,14 @@ a{
 
 
 header{
+    display: flex;
     background-color: #83B799;
     text-align: center;
     flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -98,7 +98,9 @@ h2{
     border-radius: 5px;
     padding: 0.125rem;
 }
+
 nav ul{
+    width: 100%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -109,7 +111,6 @@ nav ul{
     padding: 0;
     margin: 0;
     font-size: 0.9rem;
-    text-shadow:0 0 1 black;
 }
 nav li{
     list-style: none;
@@ -122,8 +123,7 @@ article{
 
 /* HOME */
 #home-header{
-    height: 92vh;
-    min-height: -webkit-fill-available;
+    height: 100vh;
 }
 
 #home-header-h1{
@@ -134,8 +134,16 @@ article{
 }
 
 #home-nav ul{
-    height: 8vh;
+    height: 2rem;
 }
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+}
+
 
 
 
