@@ -10,7 +10,7 @@ body{
     padding: 0;
     width: 100%;
     color: #272323;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Oranienbaum', serif;
 }
 
 body::-webkit-scrollbar {
@@ -80,6 +80,7 @@ h2{
     display: none;
 }
 .nav-list ul{
+    text-shadow: 0 0 1 black;
     font-weight: 900;    
     font-size: 0.7rem;
     margin: 0;
@@ -87,7 +88,6 @@ h2{
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
-    /* margin-top: 0.8rem; */
 }
 .nav-list li{
     list-style: none;
@@ -97,16 +97,17 @@ h2{
     padding: 0.125rem;
 }
 nav ul{
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8%;
+    gap: 1rem;
     color: white;
     background-color: #69a281;
     padding: 0;
     margin: 0;
-    height: 6vh;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    text-shadow:0 0 1 black;
 }
 nav li{
     list-style: none;
@@ -119,7 +120,7 @@ article{
 
 /* HOME */
 #home-header{
-    height: 94vh;
+    height: 92vh;
 }
 
 #home-header-h1{
@@ -130,7 +131,7 @@ article{
 }
 
 #home-nav ul{
-    height: 6vh;
+    height: 8vh;
 }
 
 
@@ -152,14 +153,20 @@ article{
 
 /* ABOUT PAGE */
 
-#about-header{
-    height: 100vh;
+#about-main{
+    text-align: center;
 }
+
 #about-header-h1{
     padding-top: 2rem;
     font-size: 2rem;
     text-decoration: underline;
 }
 .about-header-h2{
+    font-size: 1rem;
+}
+.about-names{
     font-size: 1.3rem;
+    font-weight: 700;
+    color: #69a281;
 }
