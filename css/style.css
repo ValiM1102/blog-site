@@ -123,6 +123,7 @@ article{
 /* HOME */
 #home-header{
     height: 92vh;
+    min-height: -webkit-fill-available;
 }
 
 #home-header-h1{
