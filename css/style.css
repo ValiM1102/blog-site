@@ -110,8 +110,7 @@ nav ul{
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: space-evenly;
     color: white;
     background-color: #69a281;
     padding: 0;
@@ -139,16 +138,12 @@ article{
     padding-bottom: 2.2rem;
 }
 
-#home-nav ul{
-    height: 2rem;
+#home-nav{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
-
-nav{
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    height: 100vh;
-}
+ 
 
 
 
