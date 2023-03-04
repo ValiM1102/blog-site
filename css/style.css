@@ -45,7 +45,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 30vh;
     position: relative;
 }
 
@@ -82,7 +82,7 @@ h2{
     position: absolute;
     top: 1rem;
     right: 1rem;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 .hidden{
     display: none;
@@ -90,12 +90,12 @@ h2{
 .nav-list ul{
     text-shadow: 0 0 1 black;
     font-weight: 900;    
-    font-size: 0.7rem;
+    font-size: 1rem;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 0.4rem;
 }
 .nav-list li{
     list-style: none;
@@ -127,9 +127,7 @@ article{
 }
 
 /* HOME */
-#home-header{
-    height: 100vh;
-}
+
 
 #home-header-h1{
     clip-path: circle(2.2rem);
@@ -142,6 +140,13 @@ article{
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+#home-nav li{
+    font-size: 1.7rem;
+    padding: 0.7rem 0;
+}
+#home-header-h2{
+    font-size: 1.19rem;
 }
  
 
