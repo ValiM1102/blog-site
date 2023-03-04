@@ -60,7 +60,7 @@ h2{
     padding-bottom: 0;
     margin-bottom: 0;
     margin-top: 2.5rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
     font-style: italic;
 }
@@ -129,12 +129,13 @@ article{
 /* HOME */
 
 
-#home-header-h1{
+#home-header-logo{
     font-family: 'Dancing Script', cursive;
     clip-path: circle(2.2rem);
     background-color: white;
     padding-top: 2.2rem;
     padding-bottom: 2.2rem;
+    font-weight: 650;
 }
 
 #home-nav{
@@ -147,8 +148,9 @@ article{
     padding: 0.7rem 0;
 }
 #home-header-h2{
+    text-align: center;
     font-size: 1.19rem;
-    margin-top: 0;
+    margin:0 40px;
 }
  
 
@@ -157,17 +159,21 @@ article{
 
 /* BLOG PAGE */
 
+#blog-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #header-title-blog {
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    margin-top: 0;
+    margin: 0;
+    padding: 2.5rem;
     font-size: 1rem;
-    clip-path: circle(1.8rem);
+    clip-path: circle(2rem);
     background-color: white;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    font-weight: 650;
 }
 
 /* ABOUT PAGE */
@@ -176,10 +182,21 @@ article{
     text-align: center;
 }
 
+#about-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #about-header-h1{
-    padding-top: 2rem;
-    font-size: 2rem;
-    text-decoration: underline;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 2.5rem;
+    font-size: 1rem;
+    clip-path: circle(2.15rem);
+    background-color: white;
+    font-weight: 650;
 }
 .about-header-h2{
     font-size: 1rem;
@@ -188,4 +205,23 @@ article{
     font-size: 1.3rem;
     font-weight: 700;
     color: #69a281;
+}
+
+/* contact */
+
+#contact-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-heading{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 2.5rem;
+    font-size: 1rem;
+    clip-path: circle(1.8rem);
+    background-color: white;
+    font-weight: 650;
 }
