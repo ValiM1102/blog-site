@@ -82,20 +82,24 @@ h2{
     position: absolute;
     top: 1rem;
     right: 1rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 .hidden{
     display: none;
 }
 .nav-list ul{
+    background-color:#69a281;
+    border: 2px solid white;
+    border-radius: 10px;
     text-shadow: 0 0 1 black;
     font-weight: 900;    
     font-size: 1rem;
     margin: 0;
     padding: 0;
+    padding: 5px 8px 5px 5px;
     display: flex;
     flex-direction: column;
-    gap: 0.4rem;
+    gap: 0.3rem;
 }
 .nav-list li{
     list-style: none;
@@ -142,11 +146,12 @@ article{
     bottom: 0;
 }
 #home-nav li{
-    font-size: 1.7rem;
+    font-size: 1rem;
     padding: 0.7rem 0;
 }
 #home-header-h2{
     font-size: 1.19rem;
+    margin-top: 0;
 }
  
 
