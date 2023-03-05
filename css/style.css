@@ -43,7 +43,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30vh;
+    height: 25vh;
     position: relative;
 }
 
@@ -128,13 +128,17 @@ article{
 
 /* HOME */
 
+#home-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 #home-header-logo{
     font-family: 'Dancing Script', cursive;
-    clip-path: circle(2.2rem);
+    clip-path: circle(2.39rem);
     background-color: white;
-    padding-top: 2.2rem;
-    padding-bottom: 2.2rem;
+    padding: 2.5rem;
     font-weight: 650;
 }
 
@@ -193,8 +197,8 @@ article{
     font-family: 'Dancing Script', cursive;
     margin: 0;
     padding: 2.5rem;
-    font-size: 1rem;
-    clip-path: circle(2.15rem);
+    font-size: 0.8rem;
+    clip-path: circle(2rem);
     background-color: white;
     font-weight: 650;
 }
@@ -220,8 +224,24 @@ article{
     font-family: 'Dancing Script', cursive;
     margin: 0;
     padding: 2.5rem;
-    font-size: 1rem;
-    clip-path: circle(1.8rem);
+    font-size: 0.9rem;
+    clip-path: circle(2rem);
     background-color: white;
     font-weight: 650;
+}
+
+
+/* articles */
+
+.articles{
+    margin: 0 1rem;
+}
+.articles h1{
+    font-size: 1.3rem;
+}
+.articles h2{
+    font-size: 1.1rem;
+}
+.articles h3{
+    font-size: 1rem;
 }
