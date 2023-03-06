@@ -48,6 +48,7 @@ header{
 }
 
 
+
 h1{
     text-align: center;
     padding-bottom: 0;
@@ -124,6 +125,20 @@ article{
     border: #272323 2px solid;
     height: 50vh;
     margin: 1rem;
+}
+
+header i{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 3px 1px  rgb(255, 255, 255);
+}
+header i:hover{
+    padding: 11px;
+}
+#nav-bar-icon:hover{
+    font-size: 1.5rem;
 }
 
 /* HOME */
